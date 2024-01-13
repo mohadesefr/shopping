@@ -143,6 +143,7 @@ listArray.forEach((item) => {
 btnPurchase.addEventListener('click', function () {
   userCard = [];
   itemsOfCard(userCard);
+  calcTotalPrice();
 });
 
 
